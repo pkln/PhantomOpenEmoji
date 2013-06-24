@@ -80,19 +80,19 @@ opts.on('--standard') {
 def convert_android_sets
   @poe.set_format 'png'
 
-  @poe.set_size(9)
+  @poe.set_size(20)
   @poe.set_target_path(Dir.pwd + '/drawable-ldpi')
   @poe.convert_index()
 
-  @poe.set_size(18)
+  @poe.set_size(28)
   @poe.set_target_path(Dir.pwd + '/drawable-mdpi')
   @poe.convert_index()
 
-  @poe.set_size(27)
+  @poe.set_size(40)
   @poe.set_target_path(Dir.pwd + '/drawable-hdpi')
   @poe.convert_index()
 
-  @poe.set_size(36)
+  @poe.set_size(56)
   @poe.set_target_path(Dir.pwd + '/drawable-xhdpi')
   @poe.convert_index()
 end
